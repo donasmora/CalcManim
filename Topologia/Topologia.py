@@ -2699,7 +2699,7 @@ class Compactos(Scene):
         
 
         ###Conjunto y cubiertas
-        Conjunto_Cubierto = SVGMobject("ConjuntoCompacto.svg").scale(3)
+        Conjunto_Cubierto = SVGMobject("Topologia_SVGs/ConjuntoCompacto.svg").scale(3)
         K = Conjunto_Cubierto[0].set_color(PURPLE).next_to(t_1, 7*DOWN)
         cover = Conjunto_Cubierto[1:16].next_to(t_2, DOWN)
         index = VGroup()
